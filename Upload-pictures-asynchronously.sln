@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upload-pictures-asynchronously", "Upload-pictures-asynchronously\Upload-pictures-asynchronously.csproj", "{18BA593C-1EB5-4B9B-948A-8EE71BE7FCC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18BA593C-1EB5-4B9B-948A-8EE71BE7FCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BA593C-1EB5-4B9B-948A-8EE71BE7FCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BA593C-1EB5-4B9B-948A-8EE71BE7FCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BA593C-1EB5-4B9B-948A-8EE71BE7FCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6389B8E-CEA5-4C63-9FD0-524AD552990A}
+	EndGlobalSection
+EndGlobal
