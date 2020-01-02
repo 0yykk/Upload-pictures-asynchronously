@@ -1,0 +1,39 @@
+﻿
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ImageUpload</title>
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/MyAjaxForm.js"></script>
+</head>
+<body>
+    <div>
+        <form action="../FileOperation/ProcessImgUpload" data-ajax="true" data-ajax-method="Post" data-ajax-success="afterUpload" enctype="multipart/form-data" id="frm" method="post">
+            <input type="file" name="imgFile" id="imgFile" />
+            <input type="submit" id="btnSub" value="Upload-pictures" />
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btnSub").click(function () {
+            debugger;
+            $("#frm").ajaxSubmit({
+                url: "../FileOperation/ProcessImgUpload",
+                type: "Post",
+                success: afterUpload
+            });
+            
+            return false;
+        });
+    });
+
+    function afterUpload(data) {
+        debugger;
+        $("#result").html("<img src='" + data + "'/>");
+    }
+</script>
+
+
